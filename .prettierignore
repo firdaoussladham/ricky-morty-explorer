@@ -1,0 +1,18 @@
+# ignore artifacts
+node_modules/
+dist/
+coverage/
+lib/
+build/
+out/
+
+# lockfiles
+yarn.lock
+pnpm-lock.yaml
+
+# editor configs
+.vscode/
+.idea/
+
+# environment files
+.env
