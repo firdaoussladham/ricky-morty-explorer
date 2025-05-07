@@ -42,7 +42,7 @@ export default function FavoriteCharactersPage() {
           You have no favorite characters yet.
         </div>
       ) : (
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+        <div className="xs:grid-cols-1 grid gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
           {characters.map((character) => (
             <CharacterCard
               key={character.id}
